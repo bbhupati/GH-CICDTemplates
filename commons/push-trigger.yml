@@ -1,0 +1,11 @@
+# push-trigger.yml
+
+# Define the name of the template
+name: Push Trigger
+
+# Define the on event for the template
+on:
+  push:
+    branches:
+      - '*'
+  workflow_dispatch:
