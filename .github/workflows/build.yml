@@ -1,3 +1,9 @@
+name: Build and publish .NET Core app
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   build:
     runs-on: windows-latest
